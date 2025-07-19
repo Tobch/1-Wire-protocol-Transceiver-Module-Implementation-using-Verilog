@@ -1,9 +1,23 @@
-{D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v}
+{D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_top
+
+Top level modules:
+	one_wire_top
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 -- Compiling module one_wire_rx_tb
 
 Top level modules:
 	one_wire_rx_tb
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top_tb.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top_tb.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_top_tb
+
+Top level modules:
+	one_wire_top_tb
 
 } {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
@@ -18,20 +32,6 @@ QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
 
 Top level modules:
 	one_wire_timing
-
-} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master.v}
-QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module one_wire_master
-
-Top level modules:
-	one_wire_master
-
-} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master_tb.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master_tb.v}
-QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
--- Compiling module tb_one_wire_master
-
-Top level modules:
-	tb_one_wire_master
 
 } {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v}
 QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017

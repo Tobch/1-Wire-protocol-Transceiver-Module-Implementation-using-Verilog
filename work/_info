@@ -8,21 +8,30 @@ z2
 !i10f 100
 cModel Technology
 Z0 dD:/questasim64_10.6c/examples
+T_opt
+!s110 1752951688
+VYZK]=?8TI_^fGEKW7bUB52
+04 15 4 work one_wire_top_tb fast 0
+=1-34735aeb274e-687beb88-25d-838
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.6c;65
 T_opt1
 !s110 1752920550
 VNdLK<TeB2Fm?lXii5iWVf1
 04 14 4 work one_wire_tx_tb fast 0
 =1-34735aeb274e-687b71e6-10e-5100
-Z1 o-quiet -auto_acc_if_foreign -work work +acc
-Z2 tCvgOpt 0
+R1
+R2
 n@_opt1
-Z3 OL;O;10.6c;65
+R3
 R0
 T_opt2
-!s110 1752920573
-VaNAR<TPcV3^VFTZM93@[O3
+!s110 1752951366
+V<o^4z54eZCESVi9V`VOaL2
 04 14 4 work one_wire_rx_tb fast 0
-=1-34735aeb274e-687b71fd-69-4a6c
+=1-34735aeb274e-687bea46-f8-4530
 R1
 R2
 n@_opt2
@@ -50,13 +59,13 @@ Z8 !s108 1752920542.000000
 Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 vone_wire_rx
-R4
+Z10 !s110 1752951679
 !i10b 1
 !s100 ADCX@TRFOcD3flEYHTEO?1
 If9c_LeL]0G[]^A2>VS>Qk3
 R5
 R6
-w1752920443
+w1752951344
 8D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v
 FD:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v
 L0 5
@@ -64,20 +73,20 @@ R7
 r1
 !s85 0
 31
-R8
+Z11 !s108 1752951679.000000
 !s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v|
 !i113 0
 R9
 R2
 vone_wire_rx_tb
-R4
+R10
 !i10b 1
 !s100 bV2ZkM=PEd@gGJZ^eW34F2
 Ii1T7`AmW_aL_g8P9T`T2d3
 R5
 R6
-w1752920456
+w1752951348
 8D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v
 FD:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v
 L0 5
@@ -85,20 +94,20 @@ R7
 r1
 !s85 0
 31
-R8
+R11
 !s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v|
 !i113 0
 R9
 R2
 vone_wire_timing
-R4
+R10
 !i10b 1
 !s100 0z>oAn[71Edm<7kL<6@Cz2
 Ifn0F6?[QS`>5;2H9[S=>S1
 R5
 R6
-w1752916240
+w1752950759
 8D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v
 FD:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v
 L0 7
@@ -106,20 +115,62 @@ R7
 r1
 !s85 0
 31
-R8
+R11
 !s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v|
 !i113 0
 R9
 R2
+vone_wire_top
+R10
+!i10b 1
+!s100 W0]K^hP9]KIY32:o54Ld11
+IkJDFNdV7_9060mmah_bCh2
+R5
+R6
+w1752951572
+8D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top.v
+FD:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top.v
+L0 6
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top.v|
+!i113 0
+R9
+R2
+vone_wire_top_tb
+R10
+!i10b 1
+!s100 R_m5@kWBe1Qjbn1_kAL[T0
+IfbF055f8U4V?6TR;n]5W[0
+R5
+R6
+w1752951653
+8D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top_tb.v
+FD:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top_tb.v
+L0 6
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_top_tb.v|
+!i113 0
+R9
+R2
 vone_wire_tx
-R4
+R10
 !i10b 1
 !s100 AHmIN_zH71g=M0j2i9l8R2
 I6CB^I>iiSNXP;S96iA=d;1
 R5
 R6
-w1752920407
+w1752951338
 8D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v
 FD:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v
 L0 5
@@ -127,14 +178,14 @@ R7
 r1
 !s85 0
 31
-R8
+R11
 !s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v|
 !i113 0
 R9
 R2
 vone_wire_tx_tb
-R4
+R10
 !i10b 1
 !s100 iRodNKe8>lPDOz92;C1Kb0
 IEXWc:?FeiTjILaE^hbHZ_3
@@ -148,7 +199,7 @@ R7
 r1
 !s85 0
 31
-R8
+R11
 !s107 D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/tb_onewire_tx.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/tb_onewire_tx.v|
 !i113 0

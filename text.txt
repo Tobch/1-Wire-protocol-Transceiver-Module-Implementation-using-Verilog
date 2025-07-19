@@ -19,6 +19,7 @@ wave zoom full
 
 
 final phase 
-vsim work.tb_one_wire_master
-add wave -recursive *
-run -all
+vsim -novopt -voptargs="+acc" work.one_wire_top_tb
+add wave -recursive /*
+run 1ms
+wave zoom full
