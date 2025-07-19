@@ -10,6 +10,7 @@ All of this happens using just one data wire (plus ground) — like how some sen
 What Does It Do?
 
 Master (TX Module):
+
 •Sends a reset signal to start communication
 •Sends an 8-bit data byte, one bit at a time:
 oSends a “1” → short low pulse
@@ -17,6 +18,7 @@ oSends a “0” → longer low pulse
 
 
 Slave (RX Module):
+
 •Detects the master’s reset signal
 •Sends a presence pulse to say “I’m here”
 •Listens for the 8 data bits
