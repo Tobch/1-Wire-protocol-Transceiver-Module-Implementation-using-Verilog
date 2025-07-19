@@ -9,7 +9,7 @@ All of this happens using just one data wire (plus ground) — like how some sen
 
 What Does It Do?
 
-Master (TX Module):
+-------> Master (TX Module):
 
 •Sends a reset signal to start communication
 
@@ -22,7 +22,7 @@ oSends a “0” → longer low pulse
 
 
 
-Slave (RX Module):
+-------> Slave (RX Module):
 
 •Detects the master’s reset signal
 
