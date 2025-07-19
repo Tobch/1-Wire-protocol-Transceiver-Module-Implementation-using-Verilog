@@ -1,0 +1,58 @@
+{D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx_tb.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_rx_tb
+
+Top level modules:
+	one_wire_rx_tb
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_tx.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_tx
+
+Top level modules:
+	one_wire_tx
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_timing.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_timing.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_timing
+
+Top level modules:
+	one_wire_timing
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_master
+
+Top level modules:
+	one_wire_master
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master_tb.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_master_tb.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module tb_one_wire_master
+
+Top level modules:
+	tb_one_wire_master
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/onewire_tx.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_timing
+
+Top level modules:
+	one_wire_timing
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v} {2 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_rx
+** Warning: D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/one_wire_rx.v(80): (vlog-2182) 'bit_cnt' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	one_wire_rx
+
+} {} {}} {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/tb_onewire_tx.v} {1 {vlog -work work -vopt -stats=none {D:/asu/summer 25/CSE312 - Electronic Design Automation/Project/tb_onewire_tx.v}
+QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
+-- Compiling module one_wire_tx_tb
+
+Top level modules:
+	one_wire_tx_tb
+
+} {} {}}

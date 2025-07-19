@@ -1,0 +1,24 @@
+phase 1 
+
+vsim -voptargs="+acc" work.one_wire_tx_tb
+
+add wave -recursive /*
+
+
+run 1ms
+
+
+
+
+phase 2
+vsim -voptargs="+acc" work.one_wire_rx_tb
+add wave -recursive /*
+run 1ms
+wave zoom full
+
+
+
+final phase 
+vsim work.tb_one_wire_master
+add wave -recursive *
+run -all
