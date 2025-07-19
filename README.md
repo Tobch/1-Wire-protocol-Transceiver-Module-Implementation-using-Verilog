@@ -20,6 +20,8 @@ oSends a “1” → short low pulse
 oSends a “0” → longer low pulse
 
 
+
+
 Slave (RX Module):
 
 •Detects the master’s reset signal
