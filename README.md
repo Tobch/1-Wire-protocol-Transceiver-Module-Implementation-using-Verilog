@@ -10,6 +10,7 @@ All of this happens using just one data wire (plus ground) — like how some sen
 What Does It Do?
 
 Master (TX Module):
+
 •Sends a reset signal to start communication
 
 •Sends an 8-bit data byte, one bit at a time:
