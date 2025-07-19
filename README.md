@@ -1,6 +1,7 @@
 This project simulates a One-Wire Communication System between two devices:
 
 •Master (Transmitter - TX) → Sends data bits over a single wire
+
 •Slave (Receiver - RX) → Listens to the wire, reads the data, and acknowledges with a presence pulse
 
 All of this happens using just one data wire (plus ground) — like how some sensors (e.g., DS18B20 temperature sensor) communicate with microcontrollers using the Dallas One-Wire protocol.
